@@ -1,0 +1,38 @@
+#welcome
+    min-height: 100vh
+    background-image: url("assets/header-bg.jpg")
+    background-size: cover
+    background-position: center
+    .textbox
+        h1,h2
+            color: #ffff
+            text-align: center
+        h2
+            font-size: 50px
+            margin-top: 100px
+        h1
+            font-size: 100px
+            margin: 40px 0 70px
+            font-weight: 700
+    a
+        background-color: #FFC800
+        padding: 30px 70px
+        border-radius: 8px 
+        &:hover
+            background-color: #cfa60f
+            cursor: pointer
+            transition: 0.5s
+        h5
+            font-size: 25px
+            font-weight: 700
+            color: #ffff
+@media screen and ( max-width: 400px  )
+    #welcome
+        .textbox
+            line-height: 1.2
+            h1
+                font-size: 75px
+        a
+            padding: 25px 40px
+            h5
+                font-size: 30px
