@@ -21,30 +21,47 @@ header
                     color: #F1C634
                     cursor: pointer
                     transition: 0.5s
+            .hamburgerMenuBox
+                display: none
 
 @media screen and ( max-width: 992px )
     header
         padding-bottom: 47px
-        a
-            .imgbox
-                position: absolute
-                left: 15px
-        nav
-            display: flex
-            flex-direction: column
-            position: absolute
-            background-color: #212529
-            width: 100%
-            left: 0
-            top: 60px
+        .menu
             a
-                display: none
-            i
-                position: fixed
-                right: 15px
-                top: 10px
-                color: #969597
-                font-size: 30px
-                margin: 10px
-                &:hover
-                    cursor: pointer
+                .imgbox
+                    position: absolute
+                    left: 15px
+            nav
+                display: flex
+                flex-direction: column
+                position: absolute
+                background-color: #212529
+                width: 100%
+                left: 0
+                top: 60px
+                a
+                    display: none
+                .hamburgerMenuBox
+                    border: 1px solid #969597
+                    border-radius: 5px
+                    padding: 10px
+                    display: flex
+                    align-items: center
+                    color: #fff
+                    position: fixed
+                    right: 3px
+                    top: 4px
+                    color: #969597
+                    font-size: 20px
+                    margin: 10px
+                    &:hover
+                        cursor: pointer
+                    h5
+                        font-size: 15px
+                        margin-right: 10px
+                        font-weight: 700
+                        color: #9A9C9E
+                    i
+                        font-size: 10px
+                        

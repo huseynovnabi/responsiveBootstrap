@@ -34,16 +34,19 @@ header .menu nav a:hover {
   cursor: pointer;
   transition: 0.5s;
 }
+header .menu nav .hamburgerMenuBox {
+  display: none;
+}
 
 @media screen and (max-width: 992px) {
   header {
     padding-bottom: 47px;
   }
-  header a .imgbox {
+  header .menu a .imgbox {
     position: absolute;
     left: 15px;
   }
-  header nav {
+  header .menu nav {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -52,19 +55,34 @@ header .menu nav a:hover {
     left: 0;
     top: 60px;
   }
-  header nav a {
+  header .menu nav a {
     display: none;
   }
-  header nav i {
+  header .menu nav .hamburgerMenuBox {
+    border: 1px solid #969597;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #fff;
     position: fixed;
-    right: 15px;
-    top: 10px;
+    right: 3px;
+    top: 4px;
     color: #969597;
-    font-size: 30px;
+    font-size: 20px;
     margin: 10px;
   }
-  header nav i:hover {
+  header .menu nav .hamburgerMenuBox:hover {
     cursor: pointer;
+  }
+  header .menu nav .hamburgerMenuBox h5 {
+    font-size: 15px;
+    margin-right: 10px;
+    font-weight: 700;
+    color: #9A9C9E;
+  }
+  header .menu nav .hamburgerMenuBox i {
+    font-size: 10px;
   }
 }
 #welcome {
