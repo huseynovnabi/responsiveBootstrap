@@ -88,7 +88,6 @@ header .menu nav .hamburgerMenuBox {
   }
 }
 #welcome {
-  min-height: 100vh;
   background-image: url("assets/header-bg.jpg");
   background-size: cover;
   background-position: center;
@@ -122,12 +121,20 @@ header .menu nav .hamburgerMenuBox {
   color: white;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 481px) {
+  #welcome {
+    display: flex;
+    align-items: center;
+  }
   #welcome .textbox {
     line-height: 1.2;
   }
   #welcome .textbox h1 {
-    font-size: 75px;
+    font-size: 70px;
+    margin: 15px 0 25px;
+  }
+  #welcome .textbox h2 {
+    font-size: 30px;
   }
   #welcome a {
     padding: 25px 40px;
@@ -322,6 +329,7 @@ header .menu nav .hamburgerMenuBox {
     border: 5px solid #e9ecef;
   }
   #about .box .image h3 {
+    padding: 20px;
     font-size: 13px;
     font-weight: 500;
     padding: 0 18px;
@@ -345,6 +353,7 @@ header .menu nav .hamburgerMenuBox {
     border: 5px solid #e9ecef;
   }
   #about .box .image h3 {
+    padding: 20px;
     font-size: 13px;
     font-weight: 500;
   }
@@ -410,8 +419,15 @@ header .menu nav .hamburgerMenuBox {
 }
 
 @media screen and (max-width: 767px) {
-  #team .icons ul {
+  #team .textbox h1 {
+    padding: 0 11px;
+    line-height: 1;
+  }
+  #team .textbox .icons ul {
     margin-bottom: 50px;
+  }
+  #team .box {
+    margin-top: 40px;
   }
 }
 #platforms .box {

@@ -1,5 +1,4 @@
 #welcome
-    min-height: 100vh
     background-image: url("assets/header-bg.jpg")
     background-size: cover
     background-position: center
@@ -17,7 +16,7 @@
     a
         background-color: #FFC800
         padding: 30px 70px
-        border-radius: 8px 
+        border-radius: 8px
         &:hover
             background-color: #cfa60f
             cursor: pointer
@@ -26,12 +25,17 @@
             font-size: 25px
             font-weight: 700
             color: #ffff
-@media screen and ( max-width: 400px  )
+@media screen and ( max-width: 481px  )
     #welcome
+        display: flex
+        align-items: center
         .textbox
             line-height: 1.2
             h1
-                font-size: 75px
+                font-size: 70px
+                margin: 15px 0 25px 
+            h2
+                font-size: 30px
         a
             padding: 25px 40px
             h5
