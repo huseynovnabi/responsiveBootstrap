@@ -285,6 +285,7 @@ header .menu nav a:hover {
     border: 5px solid #e9ecef;
   }
   #about .box .image h3 {
+    padding: 20px;
     font-size: 13px;
     font-weight: 500;
   }
