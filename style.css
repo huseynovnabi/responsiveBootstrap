@@ -88,6 +88,7 @@ header .menu nav .hamburgerMenuBox {
   }
 }
 #welcome {
+  margin-top: 69px;
   background-image: url("assets/header-bg.jpg");
   background-size: cover;
   background-position: center;
@@ -121,13 +122,12 @@ header .menu nav .hamburgerMenuBox {
   color: white;
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 768px) {
   #welcome {
-    display: flex;
-    align-items: center;
+    padding: 0 0 100px;
   }
   #welcome .textbox {
-    line-height: 1.2;
+    line-height: 1;
   }
   #welcome .textbox h1 {
     font-size: 70px;
