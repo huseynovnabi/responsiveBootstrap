@@ -143,6 +143,17 @@ header .menu nav .hamburgerMenuBox {
     font-size: 30px;
   }
 }
+@media screen and (min-width: 1330px) {
+  #welcome {
+    min-height: 100vh;
+  }
+  #welcome .textbox h1 {
+    font-size: 150px;
+  }
+  #welcome .textbox h2 {
+    font-size: 70px;
+  }
+}
 #services .textbox h1 {
   font-size: 50px;
   font-weight: 700;
