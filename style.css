@@ -348,6 +348,7 @@ header .menu nav .hamburgerMenuBox {
     padding-right: 41px;
   }
   #about .box .imgbox, #about .box .image {
+    left: 45%;
     width: 90px;
     height: 90px;
     border: 5px solid #e9ecef;
@@ -356,6 +357,41 @@ header .menu nav .hamburgerMenuBox {
     padding: 20px;
     font-size: 13px;
     font-weight: 500;
+  }
+}
+@media screen and (min-width: 1201px) {
+  #about .box .imgbox, #about .box .image {
+    left: 42%;
+  }
+}
+@media screen and (min-width: 1370px) {
+  #about .box .imgbox, #about .box .image {
+    left: 43%;
+  }
+}
+@media screen and (min-width: 1500px) {
+  #about .box .imgbox, #about .box .image {
+    left: 44%;
+  }
+}
+@media screen and (min-width: 1800px) {
+  #about .box .imgbox, #about .box .image {
+    left: 45%;
+  }
+}
+@media screen and (min-width: 2200px) {
+  #about .box .imgbox, #about .box .image {
+    left: 45.5%;
+  }
+}
+@media screen and (min-width: 2300px) {
+  #about .box .imgbox, #about .box .image {
+    left: 45.8%;
+  }
+}
+@media screen and (min-width: 2450px) {
+  #about .box .imgbox, #about .box .image {
+    left: 46%;
   }
 }
 #team {
